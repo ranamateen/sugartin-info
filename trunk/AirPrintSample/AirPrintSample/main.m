@@ -2,8 +2,8 @@
 //  main.m
 //  AirPrintSample
 //
-//  Created by Spark on 2/1/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Neon Spark on 2/1/12.
+//  Copyright (c) 2012 http://sugartin.info. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
