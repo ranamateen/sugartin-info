@@ -13,6 +13,7 @@
 		<string>Icon.png</string>
 		<string>Icon@2x.png</string>
 		<string>iCon_iPad.png</string>
+		<string>Icon-iPad.png</string>
 	</array>
 	<key>CFBundleIcons</key>
 	<dict>
@@ -23,6 +24,7 @@
 				<string>Icon.png</string>
 				<string>Icon@2x.png</string>
 				<string>iCon_iPad.png</string>
+				<string>Icon-iPad.png</string>
 			</array>
 			<key>UIPrerenderedIcon</key>
 			<false/>
