@@ -38,7 +38,7 @@
     NSArray *arStates = [doc nodesForXPath:@"//states/*" error:nil];
     
     // this array will add parsed data of states
-    NSMutableArray *arOfStates=[NSMutableArray array];
+    NSMutableDictionary *dOfStates=[NSMutableDictionary dictionary];
     NSUInteger index = 0;
     
     // foreach loop to go through all state node 
@@ -67,13 +67,18 @@
                 }
             }
             // add a specific state dictionary into array of states
-            [arOfStates addObject:[NSDictionary dictionaryWithObjectsAndKeys:arOfPoints,@"points",[(CXMLNode*)[[(CXMLElement*)nodeState attributes] objectAtIndex:0] stringValue],@"name",[NSNumber numberWithInt:index++],@"id",nil]];
+            NSString *strStateName = [(CXMLNode*)[[(CXMLElement*)nodeState attributes] objectAtIndex:0] stringValue];
+            [dOfStates setObject:[NSDictionary dictionaryWithObjectsAndKeys:arOfPoints,@"points",strStateName,@"name",[NSNumber numberWithInt:index++],@"id",nil] forKey:strStateName];
         }
     }
-    self.arOfStates=arOfStates;
+//    self.arOfStates=arOfStates;
+    
+    NSString *string = [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask , YES) objectAtIndex:0] stringByAppendingPathComponent:@"statedata.plist"];
+    [dOfStates writeToFile:string atomically:YES];
+    
     // once we done with parsing logic
     // we will add overlays
-    [self addOverLays];
+//    [self addOverLays];
 }
 
 - (void)addOverLays {
@@ -112,12 +117,12 @@
     MKPolygonView *polygonView = [[MKPolygonView alloc] initWithPolygon:overlay];
     
     // applying line-width
-    polygonView.lineWidth = 1.5;
+    polygonView.lineWidth = 2.5;
     
     // a code to create generate random number, which will be helpful to generate random color
     int color = arc4random()%3;
-    UIColor *colorValue = (color==0)?[UIColor colorWithRed:1.0 green:0.0 blue:0.0 alpha:1] : (
-    (color==1)? [UIColor colorWithRed:0.0 green:1.0 blue:0.0 alpha:1] : [UIColor colorWithRed:0.0 green:0.0 blue:1.0 alpha:1] );
+    UIColor *colorValue = (color==0)?[UIColor colorWithRed:1.0 green:0.0 blue:0.0 alpha:0.5] : (
+    (color==1)? [UIColor colorWithRed:0.0 green:1.0 blue:0.0 alpha:0.5] : [UIColor colorWithRed:0.0 green:0.0 blue:1.0 alpha:0.5] );
     
     // apply stroke & fill color
     polygonView.strokeColor = [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1];

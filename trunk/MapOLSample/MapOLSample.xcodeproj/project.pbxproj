@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1B0E824214E8ED3F00798697 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0E823F14E8ED3F00798697 /* Place.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1B0E824314E8ED3F00798697 /* PlaceMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0E824114E8ED3F00798697 /* PlaceMark.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1B0E824F14E92E2100798697 /* Icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B0E824E14E92E2100798697 /* Icon-iPad.png */; };
 		1BDA113014E5095B0081274D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDA112F14E5095B0081274D /* UIKit.framework */; };
 		1BDA113214E5095B0081274D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDA113114E5095B0081274D /* Foundation.framework */; };
 		1BDA113414E5095B0081274D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDA113314E5095B0081274D /* CoreGraphics.framework */; };
@@ -43,6 +44,7 @@
 		1B0E823F14E8ED3F00798697 /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
 		1B0E824014E8ED3F00798697 /* PlaceMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceMark.h; sourceTree = "<group>"; };
 		1B0E824114E8ED3F00798697 /* PlaceMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceMark.m; sourceTree = "<group>"; };
+		1B0E824E14E92E2100798697 /* Icon-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad.png"; sourceTree = "<group>"; };
 		1BDA112B14E5095B0081274D /* MapOLSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapOLSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDA112F14E5095B0081274D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1BDA113114E5095B0081274D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -114,6 +116,7 @@
 		1BDA112014E5095A0081274D = {
 			isa = PBXGroup;
 			children = (
+				1B0E824E14E92E2100798697 /* Icon-iPad.png */,
 				1BDA113514E5095B0081274D /* MapOLSample */,
 				1BDA112E14E5095B0081274D /* Frameworks */,
 				1BDA112C14E5095B0081274D /* Products */,
@@ -277,6 +280,7 @@
 			files = (
 				1BDA113A14E5095B0081274D /* InfoPlist.strings in Resources */,
 				1BDA114614E5095B0081274D /* ViewController.xib in Resources */,
+				1B0E824F14E92E2100798697 /* Icon-iPad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +342,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Deepak Shukla (LR24ZCJX67)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Deepak Shukla (LR24ZCJX67)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -353,6 +358,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "63FD801D-48E6-439C-8D65-7AD9217BB3E7";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "63FD801D-48E6-439C-8D65-7AD9217BB3E7";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -364,7 +371,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Deepak Shukla (LR24ZCJX67)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Deepak Shukla (LR24ZCJX67)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -373,6 +381,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "63FD801D-48E6-439C-8D65-7AD9217BB3E7";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "63FD801D-48E6-439C-8D65-7AD9217BB3E7";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -383,11 +393,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Deepak Shukla (LR24ZCJX67)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Deepak Shukla (LR24ZCJX67)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MapOLSample/MapOLSample-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "MapOLSample/MapOLSample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "63FD801D-48E6-439C-8D65-7AD9217BB3E7";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "63FD801D-48E6-439C-8D65-7AD9217BB3E7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -396,11 +410,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Deepak Shukla (LR24ZCJX67)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Deepak Shukla (LR24ZCJX67)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MapOLSample/MapOLSample-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "MapOLSample/MapOLSample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "63FD801D-48E6-439C-8D65-7AD9217BB3E7";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "63FD801D-48E6-439C-8D65-7AD9217BB3E7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
