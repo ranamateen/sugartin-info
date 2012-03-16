@@ -1,308 +1,0 @@
-TBatteryLevel
-v4
-r1
-cCheck dependencies
-cCpResource /iOS_SDK4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/BatteryLevel.app/ResourceRules.plist
-cProcessInfoPlistFile "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/Info.plist" BatteryLevel/BatteryLevel-Info.plist
-cProcessPCH /var/folders/Mg/Mg1hl0yQFDux9Kaz4PWgq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BatteryLevel-Prefix-fjzwvcmfzfnumcfiymhjvsmuoxst/BatteryLevel-Prefix.pch.pth BatteryLevel/BatteryLevel-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/Objects-normal/armv7/main.o "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/Objects-normal/armv7/AppDelegate.o "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/AppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/Objects-normal/armv7/ViewController.o "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/ViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/BatteryLevel" normal armv7
-cGenerateDSYMFile "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app.dSYM" "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/BatteryLevel"
-cCopyStringsFile "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/en.lproj/InfoPlist.strings" BatteryLevel/en.lproj/InfoPlist.strings
-cCompileXIB "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/en.lproj/ViewController.xib"
-cProcessProductPackaging "/Users/sagarkothari/Library/MobileDevice/Provisioning Profiles/36E74CEB-FD9B-4C51-850D-AED3605F861A.mobileprovision" "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/embedded.mobileprovision"
-cProcessProductPackaging "/Users/sagarkothari/Library/MobileDevice/Provisioning Profiles/36E74CEB-FD9B-4C51-850D-AED3605F861A.mobileprovision" "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/embedded.mobileprovision"
-cTouch "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app"
-cProcessProductPackaging /iOS_SDK4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel.xcent"
-cCodeSign "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app"
-
-N/Users/sagarkothari/Library/MobileDevice/Provisioning Profiles/36E74CEB-FD9B-4C51-850D-AED3605F861A.mobileprovision
-c000000004F5C516E0000000000001DC1
-t1331450222
-s7617
-
-N/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/AppDelegate.m
-c000000004F638F0E000000000000099A
-t1331924750
-s2458
-
-N/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/BatteryLevel-Prefix.pch
-c000000004F638F0E0000000000000147
-t1331924750
-s327
-
-N/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/ViewController.m
-c000000004F6390150000000000001813
-t1331925013
-s6163
-
-N/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/en.lproj/InfoPlist.strings
-c000000004F638F0E000000000000002D
-t1331924750
-s45
-
-N/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/en.lproj/ViewController.xib
-c000000004F63906000000000000069F4
-t1331925088
-s27124
-
-N/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/main.m
-c000000004F638F0E0000000000000157
-t1331924750
-s343
-
-N/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel.xcent
-t2
-s0
-
-N/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/Objects-normal/armv7/AppDelegate.o
-t2
-s0
-
-N/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/Objects-normal/armv7/BatteryLevel.LinkFileList
-c000000004F63906800000000000001BB
-t1331925096
-s443
-
-N/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/Objects-normal/armv7/ViewController.o
-t2
-s0
-
-N/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/Objects-normal/armv7/main.o
-t2
-s0
-
-N/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app
-t2
-s0
-
-N/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app.dSYM
-t2
-s0
-
-N/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/BatteryLevel
-t2
-s0
-
-N/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/Info.plist
-t2
-s0
-
-N/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/PkgInfo
-t2
-s0
-
-N/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/ResourceRules.plist
-t2
-s0
-
-N/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/embedded.mobileprovision
-t2
-s0
-
-N/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/en.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/en.lproj/ViewController.nib
-t2
-s0
-
-N/iOS_SDK4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
-c000000004E7840290000000000000110
-t1316503593
-s272
-
-N/iOS_SDK4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
-c000000004E5C595800000000000001A7
-t1314675032
-s423
-
-N/iOS_SDK4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
-c000000004E5C595800000000000001E5
-t1314675032
-s485
-
-N/iOS_SDK4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004E72F28700000000003AB0A0
-t1316156039
-s3846304
-
-N/iOS_SDK4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004E72F3440000000000529540
-t1316156228
-s5412160
-
-N/iOS_SDK4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004E7808C7000000000078BE50
-t1316489415
-s7913040
-
-N/var/folders/Mg/Mg1hl0yQFDux9Kaz4PWgq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BatteryLevel-Prefix-fjzwvcmfzfnumcfiymhjvsmuoxst/BatteryLevel-Prefix.pch.pth
-t2
-s0
-
-NBatteryLevel/BatteryLevel-Info.plist
-c000000004F638F0E00000000000004BE
-t1331924750
-s1214
-
-CBuild AST from "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/AppDelegate.m"
-r0
-
-CBuild AST from "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/ViewController.m"
-r0
-
-CBuild AST from "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/main.m"
-r0
-
-CCheck dependencies
-r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesda8d4ee8c713b541^de1d61e8c713b541^---0#1#0#--18"Check dependencies36"B26B1FA9-6BC8-4D99-92B0-540795BD532F-
-
-CCodeSign "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app"
-s353617899.781215
-e353617900.243336
-r1
-xCodeSign
-x/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"CodeSign build/Debug-iphoneos/BatteryLevel.app761bc8ebc713b541^ba4b3eecc713b541^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/sagarkothari/my%20work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/0000000000000000^797"CodeSign build/Debug-iphoneos/BatteryLevel.app    cd "/Users/sagarkothari/my work/sugartin.info/BatteryLevel"    setenv CODESIGN_ALLOCATE /iOS_SDK4/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/iOS_SDK4/Platforms/iPhoneOS.platform/Developer/usr/bin:/iOS_SDK4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign "iPhone Developer: sagar kothari (KM32P552BD)" "--resource-rules=/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/ResourceRules.plist" --entitlements "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel.xcent" "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app"36"58957D5F-5158-45E9-8A1C-C14DC9E0E6EC-
-
-CCompileC build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/Objects-normal/armv7/AppDelegate.o "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/AppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s353617897.108212
-e353617897.323478
-r1
-xCompileC
-xbuild/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/Objects-normal/armv7/AppDelegate.o
-x/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/AppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/AppDelegate.m62d61be9c713b541^f1d952e9c713b541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/sagarkothari/my%20work/sugartin.info/BatteryLevel/BatteryLevel/AppDelegate.m0000000000000000^2803"CompileC build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/Objects-normal/armv7/AppDelegate.o BatteryLevel/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/sagarkothari/my work/sugartin.info/BatteryLevel"    setenv LANG en_US.US-ASCII    setenv PATH "/iOS_SDK4/Platforms/iPhoneOS.platform/Developer/usr/bin:/iOS_SDK4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iOS_SDK4/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /iOS_SDK4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel-generated-files.hmap" "-I/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel-own-target-headers.hmap" "-I/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel-all-target-headers.hmap" -iquote "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel-project-headers.hmap" "-I/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/include" "-I/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/DerivedSources/armv7" "-I/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/DerivedSources" "-F/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos" -include /var/folders/Mg/Mg1hl0yQFDux9Kaz4PWgq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BatteryLevel-Prefix-fjzwvcmfzfnumcfiymhjvsmuoxst/BatteryLevel-Prefix.pch -MMD -MT dependencies -MF "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/Objects-normal/armv7/AppDelegate.d" -c "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/AppDelegate.m" -o "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/Objects-normal/armv7/AppDelegate.o"36"DEF8A8A5-C33D-4458-8F5C-E2EF6CA4828B-
-
-CCompileC build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/Objects-normal/armv7/ViewController.o "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/ViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s353617897.313194
-e353617897.629117
-r1
-xCompileC
-xbuild/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/Objects-normal/armv7/ViewController.o
-x/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/ViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/ViewController.mdb4d50e9c713b541^1e17a1e9c713b541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/sagarkothari/my%20work/sugartin.info/BatteryLevel/BatteryLevel/ViewController.m0000000000000000^2818"CompileC build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/Objects-normal/armv7/ViewController.o BatteryLevel/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/sagarkothari/my work/sugartin.info/BatteryLevel"    setenv LANG en_US.US-ASCII    setenv PATH "/iOS_SDK4/Platforms/iPhoneOS.platform/Developer/usr/bin:/iOS_SDK4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iOS_SDK4/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /iOS_SDK4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel-generated-files.hmap" "-I/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel-own-target-headers.hmap" "-I/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel-all-target-headers.hmap" -iquote "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel-project-headers.hmap" "-I/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/include" "-I/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/DerivedSources/armv7" "-I/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/DerivedSources" "-F/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos" -include /var/folders/Mg/Mg1hl0yQFDux9Kaz4PWgq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BatteryLevel-Prefix-fjzwvcmfzfnumcfiymhjvsmuoxst/BatteryLevel-Prefix.pch -MMD -MT dependencies -MF "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/Objects-normal/armv7/ViewController.d" -c "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/ViewController.m" -o "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/Objects-normal/armv7/ViewController.o"36"4A3D3B33-5931-450D-8A6B-1283586E9DA7-
-
-CCompileC build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/Objects-normal/armv7/main.o "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s353617897.107647
-e353617897.311939
-r1
-xCompileC
-xbuild/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/Objects-normal/armv7/main.o
-x/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/main.mc9ab1be9c713b541^7fdb4fe9c713b541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/sagarkothari/my%20work/sugartin.info/BatteryLevel/BatteryLevel/main.m0000000000000000^2768"CompileC build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/Objects-normal/armv7/main.o BatteryLevel/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/sagarkothari/my work/sugartin.info/BatteryLevel"    setenv LANG en_US.US-ASCII    setenv PATH "/iOS_SDK4/Platforms/iPhoneOS.platform/Developer/usr/bin:/iOS_SDK4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iOS_SDK4/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /iOS_SDK4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel-generated-files.hmap" "-I/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel-own-target-headers.hmap" "-I/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel-all-target-headers.hmap" -iquote "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel-project-headers.hmap" "-I/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/include" "-I/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/DerivedSources/armv7" "-I/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/DerivedSources" "-F/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos" -include /var/folders/Mg/Mg1hl0yQFDux9Kaz4PWgq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BatteryLevel-Prefix-fjzwvcmfzfnumcfiymhjvsmuoxst/BatteryLevel-Prefix.pch -MMD -MT dependencies -MF "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/Objects-normal/armv7/main.d" -c "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/main.m" -o "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/Objects-normal/armv7/main.o"36"7DA8C729-4CFC-499F-8909-561D1BE12DB2-
-
-CCompileXIB "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/en.lproj/ViewController.xib"
-s353617898.825227
-e353617899.726221
-r1
-xCompileXIB
-x/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/en.lproj/ViewController.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compiling /Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/en.lproj/ViewController.xib0f5ed3eac713b541^f2e9b9ebc713b541^-84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)-0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/sagarkothari/my%20work/sugartin.info/BatteryLevel/BatteryLevel/en.lproj/ViewController.xib0000000000000000^745"CompileXIB BatteryLevel/en.lproj/ViewController.xib    cd "/Users/sagarkothari/my work/sugartin.info/BatteryLevel"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/iOS_SDK4/Platforms/iPhoneOS.platform/Developer/usr/bin:/iOS_SDK4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /iOS_SDK4/usr/bin/..    /iOS_SDK4/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/en.lproj/ViewController.nib" "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/en.lproj/ViewController.xib" --sdk /iOS_SDK4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"A5E53540-D993-4307-889F-E0E29900074E-
-
-CCopyStringsFile "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/en.lproj/InfoPlist.strings" BatteryLevel/en.lproj/InfoPlist.strings
-s353617898.824961
-e353617898.829679
-r1
-xCopyStringsFile
-x/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/en.lproj/InfoPlist.strings
-xBatteryLevel/en.lproj/InfoPlist.strings
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy BatteryLevel/en.lproj/InfoPlist.stringsd95ad3eac713b541^0d6dd4eac713b541^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/sagarkothari/my%20work/sugartin.info/BatteryLevel/BatteryLevel/en.lproj/InfoPlist.strings0000000000000000^544"CopyStringsFile build/Debug-iphoneos/BatteryLevel.app/en.lproj/InfoPlist.strings BatteryLevel/en.lproj/InfoPlist.strings    cd "/Users/sagarkothari/my work/sugartin.info/BatteryLevel"    setenv PATH "/iOS_SDK4/Platforms/iPhoneOS.platform/Developer/usr/bin:/iOS_SDK4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/en.lproj" -- BatteryLevel/en.lproj/InfoPlist.strings36"621FBECC-3AA1-4B41-938D-8BF5E7DFF687-
-
-CCpResource /iOS_SDK4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/BatteryLevel.app/ResourceRules.plist
-s353617896.422055
-e353617896.444541
-r1
-xCpResource
-x/iOS_SDK4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
-xbuild/Debug-iphoneos/BatteryLevel.app/ResourceRules.plist
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphoneos/BatteryLevel.app/ResourceRules.pliste65d6de8c713b541^6edd71e8c713b541^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/sagarkothari/my%20work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/ResourceRules.plist00f86442dcffdf42^640"CpResource /iOS_SDK4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/BatteryLevel.app/ResourceRules.plist    cd "/Users/sagarkothari/my work/sugartin.info/BatteryLevel"    setenv PATH "/iOS_SDK4/Platforms/iPhoneOS.platform/Developer/usr/bin:/iOS_SDK4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /iOS_SDK4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app"36"6C464C97-7384-4AB3-BF90-9D9A9E2C86CD-
-
-CGenerateDSYMFile "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app.dSYM" "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/BatteryLevel"
-s353617898.761647
-e353617898.821532
-r1
-xGenerateDSYMFile
-x/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app.dSYM
-x/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/BatteryLevel
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Generating /Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app.dSYM8e1ec3eac713b541^ec4fd2eac713b541^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/sagarkothari/my%20work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app.dSYM00f86442dcffdf42^539"GenerateDSYMFile build/Debug-iphoneos/BatteryLevel.app.dSYM build/Debug-iphoneos/BatteryLevel.app/BatteryLevel    cd "/Users/sagarkothari/my work/sugartin.info/BatteryLevel"    setenv PATH "/iOS_SDK4/Platforms/iPhoneOS.platform/Developer/usr/bin:/iOS_SDK4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iOS_SDK4/usr/bin/dsymutil "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/BatteryLevel" -o "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app.dSYM"36"74D2085C-435A-4BFC-86CC-21D2A4BDC3FE-
-
-CLd "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/BatteryLevel" normal armv7
-s353617897.630353
-e353617898.759951
-r1
-xLd
-x/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/BatteryLevel
-xnormal
-xarmv7
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Link /Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/BatteryLevel9450a2e9c713b541^fc8dc2eac713b541^---0#0#0#--1009"Ld build/Debug-iphoneos/BatteryLevel.app/BatteryLevel normal armv7    cd "/Users/sagarkothari/my work/sugartin.info/BatteryLevel"    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/iOS_SDK4/Platforms/iPhoneOS.platform/Developer/usr/bin:/iOS_SDK4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iOS_SDK4/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv7 -isysroot /iOS_SDK4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk "-L/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos" "-F/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos" -filelist "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/Objects-normal/armv7/BatteryLevel.LinkFileList" -dead_strip -fobjc-arc -miphoneos-version-min=5.0 -framework UIKit -framework Foundation -framework CoreGraphics -o "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/BatteryLevel"36"FD6A34EB-E295-4961-A897-191FFEDCD397-
-
-CProcessInfoPlistFile "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/Info.plist" BatteryLevel/BatteryLevel-Info.plist
-s353617896.422308
-e353617896.445123
-r1
-xProcessInfoPlistFile
-x/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/Info.plist
-xBatteryLevel/BatteryLevel-Info.plist
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Process BatteryLevel/BatteryLevel-Info.plistc85c6de8c713b541^3bfc71e8c713b541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/sagarkothari/my%20work/sugartin.info/BatteryLevel/BatteryLevel/BatteryLevel-Info.plist0000000000000000^772"ProcessInfoPlistFile build/Debug-iphoneos/BatteryLevel.app/Info.plist BatteryLevel/BatteryLevel-Info.plist    cd "/Users/sagarkothari/my work/sugartin.info/BatteryLevel"    setenv PATH "/iOS_SDK4/Platforms/iPhoneOS.platform/Developer/usr/bin:/iOS_SDK4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility BatteryLevel/BatteryLevel-Info.plist -genpkginfo "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/ResourceRules.plist" -o "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/Info.plist"36"0E3943FD-CF06-4B69-B6E2-0F07E4FD9093-
-
-CProcessPCH /Users/sagarkothari/Library/Developer/Xcode/DerivedData/BatteryLevel-ffcgxfbzaktdcvdunlknseesxwqx/Index/PrecompiledHeaders/BatteryLevel-Prefix-grtendaorbgbmlazohbszcbazlzx_ast/BatteryLevel-Prefix.pch.pth BatteryLevel/BatteryLevel-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/Mg/Mg1hl0yQFDux9Kaz4PWgq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BatteryLevel-Prefix-fjzwvcmfzfnumcfiymhjvsmuoxst/BatteryLevel-Prefix.pch.pth BatteryLevel/BatteryLevel-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s353617896.456468
-e353617897.106379
-r1
-xProcessPCH
-x/var/folders/Mg/Mg1hl0yQFDux9Kaz4PWgq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BatteryLevel-Prefix-fjzwvcmfzfnumcfiymhjvsmuoxst/BatteryLevel-Prefix.pch.pth
-xBatteryLevel/BatteryLevel-Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile BatteryLevel/BatteryLevel-Prefix.pchb93975e8c713b541^a73b1be9c713b541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/sagarkothari/my%20work/sugartin.info/BatteryLevel/BatteryLevel/BatteryLevel-Prefix.pch0000000000000000^2779"ProcessPCH /var/folders/Mg/Mg1hl0yQFDux9Kaz4PWgq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BatteryLevel-Prefix-fjzwvcmfzfnumcfiymhjvsmuoxst/BatteryLevel-Prefix.pch.pth BatteryLevel/BatteryLevel-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/sagarkothari/my work/sugartin.info/BatteryLevel"    setenv LANG en_US.US-ASCII    setenv PATH "/iOS_SDK4/Platforms/iPhoneOS.platform/Developer/usr/bin:/iOS_SDK4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iOS_SDK4/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /iOS_SDK4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel-generated-files.hmap" "-I/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel-own-target-headers.hmap" "-I/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel-all-target-headers.hmap" -iquote "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel-project-headers.hmap" "-I/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/include" "-I/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/DerivedSources/armv7" "-I/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/DerivedSources" "-F/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos" -c "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/BatteryLevel/BatteryLevel-Prefix.pch" -o /var/folders/Mg/Mg1hl0yQFDux9Kaz4PWgq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BatteryLevel-Prefix-fjzwvcmfzfnumcfiymhjvsmuoxst/BatteryLevel-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/Mg/Mg1hl0yQFDux9Kaz4PWgq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BatteryLevel-Prefix-fjzwvcmfzfnumcfiymhjvsmuoxst/BatteryLevel-Prefix.pch.d36"25582ABA-C9F5-4BCE-A024-4393191CAFF5-
-
-CProcessProductPackaging "/Users/sagarkothari/Library/MobileDevice/Provisioning Profiles/36E74CEB-FD9B-4C51-850D-AED3605F861A.mobileprovision" "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/embedded.mobileprovision"
-s353617899.736310
-e353617899.739652
-r1
-xProcessProductPackaging
-x/Users/sagarkothari/Library/MobileDevice/Provisioning Profiles/36E74CEB-FD9B-4C51-850D-AED3605F861A.mobileprovision
-x/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/embedded.mobileprovision
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection204"ProcessProductPackaging "/Users/sagarkothari/Library/MobileDevice/Provisioning Profiles/36E74CEB-FD9B-4C51-850D-AED3605F861A.mobileprovision" build/Debug-iphoneos/BatteryLevel.app/embedded.mobileprovisiondd9abcebc713b541^c05ebdebc713b541^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/sagarkothari/my%20work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/embedded.mobileprovision0000000000000000^668"ProcessProductPackaging "/Users/sagarkothari/Library/MobileDevice/Provisioning Profiles/36E74CEB-FD9B-4C51-850D-AED3605F861A.mobileprovision" build/Debug-iphoneos/BatteryLevel.app/embedded.mobileprovision    cd "/Users/sagarkothari/my work/sugartin.info/BatteryLevel"    setenv PATH "/iOS_SDK4/Platforms/iPhoneOS.platform/Developer/usr/bin:/iOS_SDK4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/sagarkothari/Library/MobileDevice/Provisioning Profiles/36E74CEB-FD9B-4C51-850D-AED3605F861A.mobileprovision" -o "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app/embedded.mobileprovision"36"CAB2621B-8C06-4D06-8DBD-52229351950F-
-
-CProcessProductPackaging /iOS_SDK4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel.xcent"
-s353617899.754602
-e353617899.778646
-r1
-xProcessProductPackaging
-x/iOS_SDK4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
-x/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel.xcent
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection189"ProcessProductPackaging /iOS_SDK4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel.xcent3e42c1ebc713b541^1d57c7ebc713b541^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Users/sagarkothari/my%20work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel.xcent00f86442dcffdf42^664"ProcessProductPackaging /iOS_SDK4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel.xcent    cd "/Users/sagarkothari/my work/sugartin.info/BatteryLevel"    setenv PATH "/iOS_SDK4/Platforms/iPhoneOS.platform/Developer/usr/bin:/iOS_SDK4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /iOS_SDK4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist -entitlements -format xml -o "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/BatteryLevel.build/Debug-iphoneos/BatteryLevel.build/BatteryLevel.xcent"36"21CC54DC-72B2-4952-A7C0-BDF5D7BAEBBF-
-
-CTouch "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app"
-s353617899.742594
-e353617899.749791
-r1
-xTouch
-x/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Touch /Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app3430beebc713b541^1ff5bfebc713b541^---0#0#0#--347"Touch build/Debug-iphoneos/BatteryLevel.app    cd "/Users/sagarkothari/my work/sugartin.info/BatteryLevel"    setenv PATH "/iOS_SDK4/Platforms/iPhoneOS.platform/Developer/usr/bin:/iOS_SDK4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/sagarkothari/my work/sugartin.info/BatteryLevel/build/Debug-iphoneos/BatteryLevel.app"36"6B8D44A9-3D23-4BF1-A6F0-5D476D462A6E-
-
