@@ -93,31 +93,40 @@
     if (cell == nil) {
         cell = [[[NSBundle mainBundle] loadNibNamed:@"CCell" owner:self options:nil] objectAtIndex:0];
 	}
+    
+    UILabel *lbl=(UILabel*)[cell viewWithTag:1];
+    UIImageView *imgV = (UIImageView*)[cell viewWithTag:2];
+    
     NSDictionary *dToAccess = [self.listOfItems objectAtIndex:indexPath.row];
-    [(UILabel*)[cell viewWithTag:1] setText:[dToAccess valueForKey:@"title"]];
+    [lbl setText:[dToAccess valueForKey:@"title"]];
     NSUInteger intVal = [[dToAccess valueForKey:@"rating"] integerValue];
     switch (intVal) {
         case 0:
-            [(UIImageView*)[cell viewWithTag:2] setImage:[UIImage imageNamed:@"0star.png"]];
+            [imgV setImage:[UIImage imageNamed:@"0star.png"]];
             break;
         case 1:
-            [(UIImageView*)[cell viewWithTag:2] setImage:[UIImage imageNamed:@"1star.png"]];
+            [imgV setImage:[UIImage imageNamed:@"1star.png"]];
             break;
         case 2:
-            [(UIImageView*)[cell viewWithTag:2] setImage:[UIImage imageNamed:@"2star.png"]];
+            [imgV setImage:[UIImage imageNamed:@"2star.png"]];
             break;
         case 3:
-            [(UIImageView*)[cell viewWithTag:2] setImage:[UIImage imageNamed:@"3star.png"]];
+            [imgV setImage:[UIImage imageNamed:@"3star.png"]];
             break;
         case 4:
-            [(UIImageView*)[cell viewWithTag:2] setImage:[UIImage imageNamed:@"4star.png"]];
+            [imgV setImage:[UIImage imageNamed:@"4star.png"]];
             break;
         case 5:
-            [(UIImageView*)[cell viewWithTag:2] setImage:[UIImage imageNamed:@"5star.png"]];
+            [imgV setImage:[UIImage imageNamed:@"5star.png"]];
             break;
         default:
             break;
     }
+    CGSize size = [lbl.text sizeWithFont:[UIFont boldSystemFontOfSize:16] forWidth:205 lineBreakMode:UILineBreakModeCharacterWrap];
+    [lbl setFrame:CGRectMake(5, 0, size.width, 43)];
+    
+    [imgV setFrame:CGRectMake(5+size.width+5, 4, 118, 36)];
+    
     return cell;
 }
 
