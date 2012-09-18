@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E8BA41513C7411300B2E23C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8BA41413C7411300B2E23C /* UIKit.framework */; };
+		1E8BA41713C7411400B2E23C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8BA41613C7411300B2E23C /* Foundation.framework */; };
+		1E8BA41913C7411400B2E23C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8BA41813C7411400B2E23C /* CoreGraphics.framework */; };
+		1E8BA41F13C7411400B2E23C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E8BA41D13C7411400B2E23C /* InfoPlist.strings */; };
+		1E8BA42213C7411400B2E23C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8BA42113C7411400B2E23C /* main.m */; };
+		1E8BA42513C7411400B2E23C /* multiCheckAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8BA42413C7411400B2E23C /* multiCheckAppDelegate.m */; };
+		1E8BA42813C7411400B2E23C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E8BA42613C7411400B2E23C /* MainWindow.xib */; };
+		1E8BA42B13C7411400B2E23C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8BA42A13C7411400B2E23C /* RootViewController.m */; };
+		1E8BA42E13C7411400B2E23C /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E8BA42C13C7411400B2E23C /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E8BA41013C7411300B2E23C /* multiCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multiCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E8BA41413C7411300B2E23C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1E8BA41613C7411300B2E23C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1E8BA41813C7411400B2E23C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1E8BA41C13C7411400B2E23C /* multiCheck-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "multiCheck-Info.plist"; sourceTree = "<group>"; };
+		1E8BA41E13C7411400B2E23C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1E8BA42013C7411400B2E23C /* multiCheck-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "multiCheck-Prefix.pch"; sourceTree = "<group>"; };
+		1E8BA42113C7411400B2E23C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E8BA42313C7411400B2E23C /* multiCheckAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = multiCheckAppDelegate.h; sourceTree = "<group>"; };
+		1E8BA42413C7411400B2E23C /* multiCheckAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = multiCheckAppDelegate.m; sourceTree = "<group>"; };
+		1E8BA42713C7411400B2E23C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1E8BA42913C7411400B2E23C /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1E8BA42A13C7411400B2E23C /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1E8BA42D13C7411400B2E23C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E8BA40D13C7411300B2E23C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8BA41513C7411300B2E23C /* UIKit.framework in Frameworks */,
+				1E8BA41713C7411400B2E23C /* Foundation.framework in Frameworks */,
+				1E8BA41913C7411400B2E23C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E8BA40513C7411300B2E23C = {
+			isa = PBXGroup;
+			children = (
+				1E8BA41A13C7411400B2E23C /* multiCheck */,
+				1E8BA41313C7411300B2E23C /* Frameworks */,
+				1E8BA41113C7411300B2E23C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E8BA41113C7411300B2E23C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E8BA41013C7411300B2E23C /* multiCheck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E8BA41313C7411300B2E23C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E8BA41413C7411300B2E23C /* UIKit.framework */,
+				1E8BA41613C7411300B2E23C /* Foundation.framework */,
+				1E8BA41813C7411400B2E23C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E8BA41A13C7411400B2E23C /* multiCheck */ = {
+			isa = PBXGroup;
+			children = (
+				1E8BA42313C7411400B2E23C /* multiCheckAppDelegate.h */,
+				1E8BA42413C7411400B2E23C /* multiCheckAppDelegate.m */,
+				1E8BA42613C7411400B2E23C /* MainWindow.xib */,
+				1E8BA42913C7411400B2E23C /* RootViewController.h */,
+				1E8BA42A13C7411400B2E23C /* RootViewController.m */,
+				1E8BA42C13C7411400B2E23C /* RootViewController.xib */,
+				1E8BA41B13C7411400B2E23C /* Supporting Files */,
+			);
+			path = multiCheck;
+			sourceTree = "<group>";
+		};
+		1E8BA41B13C7411400B2E23C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E8BA41C13C7411400B2E23C /* multiCheck-Info.plist */,
+				1E8BA41D13C7411400B2E23C /* InfoPlist.strings */,
+				1E8BA42013C7411400B2E23C /* multiCheck-Prefix.pch */,
+				1E8BA42113C7411400B2E23C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E8BA40F13C7411300B2E23C /* multiCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E8BA43113C7411400B2E23C /* Build configuration list for PBXNativeTarget "multiCheck" */;
+			buildPhases = (
+				1E8BA40C13C7411300B2E23C /* Sources */,
+				1E8BA40D13C7411300B2E23C /* Frameworks */,
+				1E8BA40E13C7411300B2E23C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = multiCheck;
+			productName = multiCheck;
+			productReference = 1E8BA41013C7411300B2E23C /* multiCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E8BA40713C7411300B2E23C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1E8BA40A13C7411300B2E23C /* Build configuration list for PBXProject "multiCheck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1E8BA40513C7411300B2E23C;
+			productRefGroup = 1E8BA41113C7411300B2E23C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E8BA40F13C7411300B2E23C /* multiCheck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E8BA40E13C7411300B2E23C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8BA41F13C7411400B2E23C /* InfoPlist.strings in Resources */,
+				1E8BA42813C7411400B2E23C /* MainWindow.xib in Resources */,
+				1E8BA42E13C7411400B2E23C /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E8BA40C13C7411300B2E23C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8BA42213C7411400B2E23C /* main.m in Sources */,
+				1E8BA42513C7411400B2E23C /* multiCheckAppDelegate.m in Sources */,
+				1E8BA42B13C7411400B2E23C /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E8BA41D13C7411400B2E23C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E8BA41E13C7411400B2E23C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1E8BA42613C7411400B2E23C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E8BA42713C7411400B2E23C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1E8BA42C13C7411400B2E23C /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E8BA42D13C7411400B2E23C /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E8BA42F13C7411400B2E23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E8BA43013C7411400B2E23C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1E8BA43213C7411400B2E23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "multiCheck/multiCheck-Prefix.pch";
+				INFOPLIST_FILE = "multiCheck/multiCheck-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1E8BA43313C7411400B2E23C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "multiCheck/multiCheck-Prefix.pch";
+				INFOPLIST_FILE = "multiCheck/multiCheck-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E8BA40A13C7411300B2E23C /* Build configuration list for PBXProject "multiCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E8BA42F13C7411400B2E23C /* Debug */,
+				1E8BA43013C7411400B2E23C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E8BA43113C7411400B2E23C /* Build configuration list for PBXNativeTarget "multiCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E8BA43213C7411400B2E23C /* Debug */,
+				1E8BA43313C7411400B2E23C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E8BA40713C7411300B2E23C /* Project object */;
+}
