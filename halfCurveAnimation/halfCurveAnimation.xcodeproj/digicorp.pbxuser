@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* halfCurveAnimationAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {693, 564}}";
+			sepNavSelRange = "{178, 0}";
+			sepNavVisRange = "{0, 535}";
+		};
+	};
+	1D3623250D0F684500981E51 /* halfCurveAnimationAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {693, 564}}";
+			sepNavSelRange = "{113, 0}";
+			sepNavVisRange = "{0, 663}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* halfCurveAnimation */ = {
+		activeExec = 0;
+		executables = (
+			1E23ED8313D84A4F001BC7BB /* halfCurveAnimation */,
+		);
+	};
+	1E23ED8313D84A4F001BC7BB /* halfCurveAnimation */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = halfCurveAnimation;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	1E23ED9813D84A63001BC7BB /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	1E23ED9913D84A63001BC7BB /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1E23EDD313D84C3A001BC7BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* halfCurveAnimationViewController.h */;
+		name = "halfCurveAnimationViewController.h: 15";
+		rLen = 0;
+		rLoc = 487;
+		rType = 0;
+		vrLen = 398;
+		vrLoc = 0;
+	};
+	1E69892F13DD923400199BB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* halfCurveAnimationAppDelegate.m */;
+		name = "halfCurveAnimationAppDelegate.m: 18";
+		rLen = 73;
+		rLoc = 343;
+		rType = 0;
+		vrLen = 663;
+		vrLoc = 0;
+	};
+	1E69893713DD92C800199BB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1E69893813DD92C800199BB0 /* CLLocationManager.h */;
+		name = "CLLocationManager.h: 21";
+		rLen = 40;
+		rLoc = 339;
+		rType = 0;
+		vrLen = 947;
+		vrLoc = 0;
+	};
+	1E69893813DD92C800199BB0 /* CLLocationManager.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CLLocationManager.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h;
+		sourceTree = "<absolute>";
+	};
+	1E69893B13DD92C800199BB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* halfCurveAnimationViewController.m */;
+		name = "halfCurveAnimationViewController.m: 45";
+		rLen = 17;
+		rLoc = 355;
+		rType = 0;
+		vrLen = 1342;
+		vrLoc = 950;
+	};
+	1EBB6CF313DD9805000116FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* halfCurveAnimationAppDelegate.m */;
+		name = "halfCurveAnimationAppDelegate.m: 6";
+		rLen = 0;
+		rLoc = 113;
+		rType = 0;
+		vrLen = 663;
+		vrLoc = 0;
+	};
+	1EBB6CF413DD9805000116FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* halfCurveAnimationAppDelegate.h */;
+		name = "halfCurveAnimationAppDelegate.h: 9";
+		rLen = 0;
+		rLoc = 178;
+		rType = 0;
+		vrLen = 535;
+		vrLoc = 0;
+	};
+	1EBB6CF513DD9805000116FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 12";
+		rLen = 0;
+		rLoc = 197;
+		rType = 0;
+		vrLen = 362;
+		vrLoc = 0;
+	};
+	1EBB6CF613DD9805000116FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* halfCurveAnimation_Prefix.pch */;
+		name = "halfCurveAnimation_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 205;
+		vrLoc = 0;
+	};
+	1EBB6CFD13DD9805000116FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* halfCurveAnimationAppDelegate.h */;
+		name = "halfCurveAnimationAppDelegate.h: 9";
+		rLen = 0;
+		rLoc = 178;
+		rType = 0;
+		vrLen = 535;
+		vrLoc = 0;
+	};
+	1EBB6CFE13DD9805000116FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 12";
+		rLen = 0;
+		rLoc = 197;
+		rType = 0;
+		vrLen = 362;
+		vrLoc = 0;
+	};
+	1EBB6CFF13DD9805000116FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* halfCurveAnimation_Prefix.pch */;
+		name = "halfCurveAnimation_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 205;
+		vrLoc = 0;
+	};
+	1EBB6D0813DD9877000116FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* halfCurveAnimationViewController.m */;
+		name = "halfCurveAnimationViewController.m: 5";
+		rLen = 0;
+		rLoc = 84;
+		rType = 0;
+		vrLen = 1345;
+		vrLoc = 0;
+	};
+	1EBB6D0913DD9877000116FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* halfCurveAnimationViewController.h */;
+		name = "halfCurveAnimationViewController.h: 12";
+		rLen = 25;
+		rLoc = 314;
+		rType = 0;
+		vrLen = 682;
+		vrLoc = 0;
+	};
+	1EBB6D0A13DD9877000116FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* halfCurveAnimationViewController.m */;
+		name = "halfCurveAnimationViewController.m: 5";
+		rLen = 0;
+		rLoc = 84;
+		rType = 0;
+		vrLen = 1345;
+		vrLoc = 0;
+	};
+	1EBB6D0B13DD9877000116FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* halfCurveAnimationViewController.h */;
+		name = "halfCurveAnimationViewController.h: 12";
+		rLen = 25;
+		rLoc = 314;
+		rType = 0;
+		vrLen = 682;
+		vrLoc = 0;
+	};
+	1EBB6D0C13DD9877000116FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* halfCurveAnimationViewController.m */;
+		name = "halfCurveAnimationViewController.m: 5";
+		rLen = 0;
+		rLoc = 84;
+		rType = 0;
+		vrLen = 1345;
+		vrLoc = 0;
+	};
+	1EBB6D1013DD9982000116FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* halfCurveAnimationViewController.h */;
+		name = "halfCurveAnimationViewController.h: 12";
+		rLen = 25;
+		rLoc = 340;
+		rType = 0;
+		vrLen = 682;
+		vrLoc = 0;
+	};
+	28D7ACF60DDB3853001CB0EB /* halfCurveAnimationViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {714, 564}}";
+			sepNavSelRange = "{340, 25}";
+			sepNavVisRange = "{0, 682}";
+			sepNavWindowFrame = "{{38, 106}, {885, 614}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* halfCurveAnimationViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {840, 1694}}";
+			sepNavSelRange = "{84, 0}";
+			sepNavVisRange = "{0, 1345}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1E23ED8313D84A4F001BC7BB /* halfCurveAnimation */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* halfCurveAnimation */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* halfCurveAnimation */,
+		);
+		codeSenseManager = 1E23ED9913D84A63001BC7BB /* Code sense */;
+		executables = (
+			1E23ED8313D84A4F001BC7BB /* halfCurveAnimation */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					515,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					475,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 333289575;
+			PBXWorkspaceStateSaveDate = 333289575;
+		};
+		perUserProjectItems = {
+			1E23EDD313D84C3A001BC7BB /* PBXTextBookmark */ = 1E23EDD313D84C3A001BC7BB /* PBXTextBookmark */;
+			1E69892F13DD923400199BB0 /* PBXTextBookmark */ = 1E69892F13DD923400199BB0 /* PBXTextBookmark */;
+			1E69893713DD92C800199BB0 /* PBXTextBookmark */ = 1E69893713DD92C800199BB0 /* PBXTextBookmark */;
+			1E69893B13DD92C800199BB0 /* PBXTextBookmark */ = 1E69893B13DD92C800199BB0 /* PBXTextBookmark */;
+			1EBB6CF313DD9805000116FF /* PBXTextBookmark */ = 1EBB6CF313DD9805000116FF /* PBXTextBookmark */;
+			1EBB6CF413DD9805000116FF /* PBXTextBookmark */ = 1EBB6CF413DD9805000116FF /* PBXTextBookmark */;
+			1EBB6CF513DD9805000116FF /* PBXTextBookmark */ = 1EBB6CF513DD9805000116FF /* PBXTextBookmark */;
+			1EBB6CF613DD9805000116FF /* PBXTextBookmark */ = 1EBB6CF613DD9805000116FF /* PBXTextBookmark */;
+			1EBB6CFD13DD9805000116FF /* PBXTextBookmark */ = 1EBB6CFD13DD9805000116FF /* PBXTextBookmark */;
+			1EBB6CFE13DD9805000116FF /* PBXTextBookmark */ = 1EBB6CFE13DD9805000116FF /* PBXTextBookmark */;
+			1EBB6CFF13DD9805000116FF /* PBXTextBookmark */ = 1EBB6CFF13DD9805000116FF /* PBXTextBookmark */;
+			1EBB6D0813DD9877000116FF /* PBXTextBookmark */ = 1EBB6D0813DD9877000116FF /* PBXTextBookmark */;
+			1EBB6D0913DD9877000116FF /* PBXTextBookmark */ = 1EBB6D0913DD9877000116FF /* PBXTextBookmark */;
+			1EBB6D0A13DD9877000116FF /* PBXTextBookmark */ = 1EBB6D0A13DD9877000116FF /* PBXTextBookmark */;
+			1EBB6D0B13DD9877000116FF /* PBXTextBookmark */ = 1EBB6D0B13DD9877000116FF /* PBXTextBookmark */;
+			1EBB6D0C13DD9877000116FF /* PBXTextBookmark */ = 1EBB6D0C13DD9877000116FF /* PBXTextBookmark */;
+			1EBB6D1013DD9982000116FF /* PBXTextBookmark */ = 1EBB6D1013DD9982000116FF /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1E23ED9813D84A63001BC7BB /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {693, 564}}";
+			sepNavSelRange = "{197, 0}";
+			sepNavVisRange = "{0, 362}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* halfCurveAnimation_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {693, 564}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 205}";
+		};
+	};
+}

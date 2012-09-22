@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'UIAlertViewDemo' target in the 'UIAlertViewDemo' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
